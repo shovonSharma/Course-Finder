@@ -49,7 +49,8 @@ Uses Docker and Docker Compose for a seamless, cross-platform setup, making it e
 └── requirements.txt        # Python dependencies
 
 ## Project DEMO
-A demo of the project is given <a href='[someLabel](https://youtu.be/2r2vd6Y2vMM)'>here</a>.
+A demo of the project is given here.
+[Course-Finder demo](https://youtu.be/2r2vd6Y2vMM)
 
 
 ## Screenshot
