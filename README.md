@@ -1,19 +1,19 @@
 # Course-Finder
 is an intelligent course recommendation system which uses semantic search and a multi-factor ranking algorithm to provide highly relevant course suggestions.
-For this project i used the coursera-dataset.
+For this project I used the coursera-dataset.
 
 ## Tech Stack
-Backend & API: FastAPI, Python
+<u>Backend & API</u>: FastAPI, Python
 
-Vector Database: ChromaDB (as a persistent client)
+<u>Embeddings</u>: sentence-transformers (all-MiniLM-L6-v2)
 
-Embeddings: sentence-transformers (specifically all-MiniLM-L6-v2)
+<u>Vector Database</u>: ChromaDB (as a persistent client)
 
-Frontend: Streamlit
+<u>Frontend</u>: Streamlit
 
-Data Processing: Pandas, Scikit-learn
+<u>Data Processing</u>: Pandas, Scikit-learn
 
-Deployment: Docker, Docker Compose
+<u>Deployment</u>: Docker, Docker Compose
 
 ## ✨ Features
 #### Semantic Search: 
@@ -49,7 +49,8 @@ Uses Docker and Docker Compose for a seamless, cross-platform setup, making it e
 └── requirements.txt        # Python dependencies
 
 ## Project DEMO
-![Course-Finder Demo](https://github.com/shovonSharma/Course-Finder/blob/main/course-finder%20demo.webm)
+A demo of the project is given <a href='[someLabel](https://youtu.be/2r2vd6Y2vMM)'>here</a>.
+
 
 ## Screenshot
 ![UI1](https://github.com/shovonSharma/Course-Finder/blob/main/UI1.jpg)
