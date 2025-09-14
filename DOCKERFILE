@@ -1,0 +1,23 @@
+# Use a lightweight Python image as the base
+FROM python:3.10-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the requirements file into the container
+COPY requirements.txt .
+
+# Install the dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire project directory into the container
+COPY . .
+
+# Expose the ports for both FastAPI and Streamlit
+EXPOSE 8000
+EXPOSE 8501
+
+# The command to run when the container starts
+# This will first run the FastAPI app in the background, then start the Streamlit app
+# The data and chroma_db directories are created by the recommendation.py script on first run
+CMD uvicorn main:app --host 0.0.0.0 --port 8000 & streamlit run app.py --server.port 8501 --server.enableCORS false --server.enableXsrfProtection false
