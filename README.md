@@ -1,3 +1,4 @@
+<!-- HAR HAR MAHADEV-->
 # Course-Finder
 is an intelligent course recommendation system which uses semantic search and a multi-factor ranking algorithm to provide highly relevant course suggestions.
 For this project I used the coursera-dataset.
