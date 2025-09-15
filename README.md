@@ -35,6 +35,8 @@ A clean and responsive Streamlit user interface allows for easy searching and vi
 Uses Docker and Docker Compose for a seamless, cross-platform setup, making it easy to run the entire application with a single command
 
 ## Project structure
+
+```bash
 .
 ├── app/
 │   ├── main.py             # FastAPI backend API
@@ -47,6 +49,7 @@ Uses Docker and Docker Compose for a seamless, cross-platform setup, making it e
 ├── Dockerfile              # Docker build instructions
 ├── docker-compose.yml      # Multi-container setup for Docker
 └── requirements.txt        # Python dependencies
+```
 
 ## Project DEMO
 A demo of the project is given here.
